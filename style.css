@@ -385,16 +385,23 @@ section{
 }
 
 .wish-footer img{
-  width:55px;
-  height:55px;
+  width:60px;
+  height:60px;
   border-radius:50%;
   object-fit:cover;
   border:2px solid #D4AF37;
 }
 
-.wish-footer span{
-  color:#D4AF37;
-  font-weight:600;
+.wish-info h4{
+  color: #D4AF37;
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.wish-info small{
+  color: #cfcfcf;;
+  font-size: 13px;
   letter-spacing:1px;
 }
 
