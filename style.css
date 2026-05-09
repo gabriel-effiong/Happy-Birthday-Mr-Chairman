@@ -64,18 +64,20 @@ body{
 }
 
 .navbar{ 
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;
-  padding:18px 0;
-  z-index:1000;
-  background:rgba(0,0,0,0.45);
-  backdrop-filter:blur(20px);
-  -webkit-backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 18px 0;
+  z-index: 1000;
+
+  background: rgba(0, 0, 0, 0.9); /* darker */
+  
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
   transition: all var(--transition-normal);
 }
-
 .navbar-inner{
   display:flex;
   justify-content:space-between;
