@@ -87,24 +87,13 @@ body{
   gap:14px;
 }
 
-.logo-circle{
-  width:50px;
-  height:50px;
-  border-radius:50%;
-  background: linear-gradient(135deg, var(--primary-gold), var(--accent-light));
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color: var(--dark-bg);
-  font-weight:800;
-  font-size:20px;
-  box-shadow: 0 0 18px rgba(212, 175, 55, 0.3);
-}
-
-.logo-text{
-  color: var(--white);
-  font-size:22px;
-  font-weight:700;
+.nav-logo .logo-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  box-shadow: var(--shadow-md);
 }
 
 nav.nav-links{
