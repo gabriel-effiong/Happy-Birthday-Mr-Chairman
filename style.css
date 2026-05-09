@@ -63,14 +63,6 @@ body{
   100% { transform: rotate(360deg); }
 }
 
-
-  
-  
-
-
-/* backdrop-filter: blur(10px); */
-
-/* transition: all var(--transition-normal); */
 .navbar{ 
   position:fixed;
   top:0;
@@ -81,6 +73,7 @@ body{
   background:rgba(0,0,0,0.45);
   backdrop-filter:blur(20px);
   -webkit-backdrop-filter: blur(10px);
+  transition: all var(--transition-normal);
 }
 
 .navbar-inner{
