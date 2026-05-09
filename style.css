@@ -5,17 +5,11 @@
   scroll-behavior:smooth;
 }
 
-body{
-  font-family:'Poppins', sans-serif;
-  background:#081120;
-  color:#fff;
-  overflow-x:hidden;
-}
-
-.container{
-  width:90%;
-  max-width:1200px;
-  margin:auto;
+:root {
+  --white: #ffffff;
+  --primary-blue: #4c8dff;
+  --light-blue: #8bb3ff;
+  --transition-slow: 0.4s ease;
 }
 
 .loading-spinner {
@@ -51,6 +45,19 @@ body{
   100% { transform: rotate(360deg); }
 }
 
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#081120;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+}
 
 .navbar{
   position:fixed;

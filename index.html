@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -12,10 +12,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Loading Spinner -->
+  <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+  </div>
 
   <!-- NAVBAR -->
   <header class="navbar">
-    <div class="logo">Chairman Tribute</div>
+    <div class="container">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="" alt="chairman picture" class="logo-image">
+        </div>
+      </div>
+    </div>
 
     <nav>
       <a href="#home">Home</a>
@@ -23,12 +33,7 @@
       <a href="#videos">Videos</a>
       <a href="#tribute">Tribute</a>
     </nav>
-  </header>J
-
-  <!-- Loading Spinner -->
-  <div class="loading-spinner" id="loadingSpinner">
-        <div class="spinner"></div>
-  </div>
+  </header>
 
 
   <!-- HERO SECTION -->
@@ -40,7 +45,7 @@
       <h3 class="fade-in">Celebrating a Visionary Leader</h3>
 
       <h1 class="typing-text">
-        Happy Birthday<span> Hon. Sunday Okon Etim</span>
+        Happy Birthday<span> Hon. Sunday Okon Etim, JP  </span>
       </h1>
 
       <p class="fade-in delay">
@@ -183,60 +188,9 @@
   </footer>
 
   <!-- SCROLL TOP BUTTON -->
-  <button id="topBtn">↑</button>
+  <button id="topBtn">â†‘</button>
 
-  <script src="script.js">
-    // script.js
-
-  // Scroll To Top Button
-
-  const topBtn = document.getElementById("topBtn");
-
-  window.addEventListener("scroll", () => {
-
-  if(window.scrollY > 300){
-    topBtn.style.display = "block";
-  } else{
-    topBtn.style.display = "none";
-  }
-
-  });
-
-  topBtn.addEventListener("click", () => {
-
-  window.scrollTo({
-    top:0,
-    behavior:"smooth"
-  });
-
-  });
-
-
- // Simple Typing Animation
-
- const text = "Happy Birthday Chairman Richard Umoh";
-
-  const typingText = document.querySelector(".typing-text");
-
-  let index = 0;
-
-  typingText.innerHTML = "";
-
-  function typeEffect(){
-
-    if(index < text.length){
-
-      typingText.innerHTML += text.charAt(index);
-
-      index++;
-
-      setTimeout(typeEffect, 100);
-    }
-
-  }
-
-  typeEffect();
-    </script>
+    <script src="script.js"></script>`r`n`r`n
     
 
 </body>
