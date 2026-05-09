@@ -71,9 +71,8 @@ body{
   padding: 18px 0;
   z-index: 1000;
 
-  /* background: rgba(0, 0, 0, 0.9); darker */
-  background: rgba(10, 10, 10, 0.85);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0, 0, 0, 0.9);
+  border-bottom: 1.5px solid rgba(255,255,255,0.08);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 
