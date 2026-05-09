@@ -3,7 +3,7 @@ const topBtn = document.getElementById('topBtn');
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 const typingText = document.querySelector('.typing-text');
-const typingTextValue = 'Happy Birthday Chairman Richard Umoh';
+const typingTextValue = 'Happy Birthday Hon. Sunday Okon Etin, JP';
 
 function hideLoader() {
   if (!loadingSpinner) return;
