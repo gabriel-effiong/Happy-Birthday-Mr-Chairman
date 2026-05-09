@@ -376,6 +376,28 @@ section{
   color:#ddd;
 }
 
+.wish-footer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+  margin-top:30px;
+}
+
+.wish-footer img{
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid #D4AF37;
+}
+
+.wish-footer span{
+  color:#D4AF37;
+  font-weight:600;
+  letter-spacing:1px;
+}
+
 footer{
   text-align:center;
   padding:40px 20px;
