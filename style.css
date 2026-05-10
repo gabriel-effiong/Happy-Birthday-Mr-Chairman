@@ -189,7 +189,7 @@ nav a:hover{
   inset:0;
   background-size:cover;
   background-position:center;
-  animation:slider 25s infinite;
+  animation:slider 25s linear infinite;
   z-index:0;
 }
 
