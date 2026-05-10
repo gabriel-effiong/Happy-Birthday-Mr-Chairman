@@ -335,6 +335,19 @@ section{
 .gallery-item{
   overflow:hidden;
   border-radius:20px;
+  animation:slideup 1.2s ease forwards;
+}
+
+@keyframes slideUp{
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to{
+    opacity: 0;
+    transform: translateY(0);
+  }
 }
 
 .gallery-item img{
