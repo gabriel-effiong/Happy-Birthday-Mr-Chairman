@@ -332,7 +332,7 @@ section{
   gap:25px;
 }
 
-/* .gallery-item{ 
+/* .gallery-item{ */
   overflow:hidden;
   border-radius:20px;
   animation:slideup 1.2s ease forwards;
@@ -348,7 +348,7 @@ section{
     opacity: 0;
     transform: translateY(0);
   }
-/ } */
+}
 
 .gallery-item{
   opacity:0;
